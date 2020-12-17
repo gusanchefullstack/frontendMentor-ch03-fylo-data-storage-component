@@ -125,10 +125,17 @@ html {
     border-radius: 1.5rem;
     display: flex;
     align-items: center;
+<<<<<<< HEAD
     justify-content: space-around;
     width: 60%;
     position: absolute;
     left: 20%;
+=======
+    justify-content: space-between;
+    width: 55%;
+    position: absolute;
+    left: 23%;
+>>>>>>> 6f374d1e046eebaaab7c3fc21bd32204add0d62c
     font-weight: bold;
 }
 
@@ -141,9 +148,15 @@ html {
 .remain-capacity-label :last-child {
     text-transform: uppercase;
     font-size: 1.5rem;
+<<<<<<< HEAD
     text-shadow:  0px 0rem 1px hsl(229, 7%, 55%);
     color: var(--Grayish-Blue);
     display: inline-block;
+=======
+    text-shadow:  0px 0rem 1px hsl(229, 7%, 55%)
+    color: var(--Grayish-Blue);
+    letter-spacing: 0.1rem;
+>>>>>>> 6f374d1e046eebaaab7c3fc21bd32204add0d62c
 
 }
 
