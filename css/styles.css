@@ -30,10 +30,13 @@ html {
 }
 
 .fylo-menu {
-    width: 85%;
+    width: 88%;
     background-color: var(--Dark-Blue);
     border-radius: 1rem;
     border-top-right-radius: 12rem;
+    margin-top: 13rem;
+    margin-bottom: 0.5rem;
+    padding: 1rem;
 }
 
 .fylo-logo {
@@ -55,6 +58,94 @@ html {
     align-items: center;
 }
 
+.fylo-storage-capacity {
+    background-color: var(--Dark-Blue);
+    font-size: 1.5rem;
+    color: var(--Grayish-Blue);
+    font-weight: 400;
+    padding: 4rem;
+    width: 88%;
+    border-radius: 1rem;
+    margin-top: 0.5rem;
+    margin-bottom: 13rem;
+    position: relative;
+}
+
+.storage-used {
+    margin-bottom: 1.8rem;
+    width: 95%;
+    text-align: center;
+}
+.storage-used span {
+    color: var(--Pale-Blue);
+    font-weight: bold;
+}
+
+.usage-bar {
+    width: 100%;
+    display: flex;
+    justify-content: stretch;
+    align-items: center;
+    background-color: var(--Very-Dark-Blue);
+    border-radius: 1rem;
+}
+
+.usage-bar__progress {
+    width: 70%;
+    background-image: linear-gradient(to right, hsl(6, 100%, 80%),  hsl(335, 100%, 65%));
+    margin: 0.3rem;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.usage-bar__point {
+    width: 1.2rem;
+    height: 1.2rem;
+    background-color: var(--Pale-Blue);
+    border-radius: 50%;
+    display: flex;
+    margin: 0.1rem;
+}
+
+.usage-bar__minmax {
+    display: flex;
+    justify-content: space-between;
+    color: var(--Pale-Blue);
+    font-weight: bold;
+    margin: 1rem 0.2rem;
+ 
+}
+
+.remain-capacity-label {
+    background-color: white;
+    display: inline-block;
+    padding: 1.5rem 2.5rem;
+    border-radius: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 60%;
+    position: absolute;
+    left: 20%;
+    font-weight: bold;
+}
+
+.remain-capacity-label :nth-child(1) {
+    font-size: 4.5rem;
+    color: var(--Very-Dark-Blue);
+    font-weight: bold;
+}
+
+.remain-capacity-label :last-child {
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    text-shadow:  0px 0rem 1px hsl(229, 7%, 55%);
+    color: var(--Grayish-Blue);
+    display: inline-block;
+
+}
 
 .attribution { font-size: 11px; text-align: center;}
 .attribution a { color: hsl(228, 45%, 44%); }
