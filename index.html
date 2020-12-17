@@ -1,55 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="./css/styles.css">
-  <title>Frontend Mentor | Fylo data storage component</title>
-
-</head>
-<body>
-  <main class="container">
-    <section class="fylo-menu">
-      <div class="fylo-logo">
-        <img src="./images/logo.svg" alt="Fylo Logo">
-      </div>
-      <div class="fylo-menu--options">
-        <div class="fylo-menu__item">
-          <img src="./images/icon-document.svg" alt="Document">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>Frontend Mentor | Fylo data storage component</title>
+  </head>
+  <body>
+    <main class="container">
+      <section class="fylo-menu">
+        <div class="fylo-logo">
+          <img src="./images/logo.svg" alt="Fylo Logo" />
         </div>
-        <div class="fylo-menu__item">
-          <img src="./images/icon-folder.svg" alt="Folder">
+        <div class="fylo-menu--options">
+          <div class="fylo-menu__item">
+            <img src="./images/icon-document.svg" alt="Document" />
+          </div>
+          <div class="fylo-menu__item">
+            <img src="./images/icon-folder.svg" alt="Folder" />
+          </div>
+          <div class="fylo-menu__item">
+            <img src="./images/icon-upload.svg" alt="Upload" />
+          </div>
         </div>
-        <div class="fylo-menu__item">
-          <img src="./images/icon-upload.svg" alt="Upload">
+      </section>
+      <section class="fylo-storage-capacity">
+        <div class="storage-used">
+          <p>You’ve used <span>815 GB</span> of your storage</p>
         </div>
-      </div>
-    </section>
-    <section class="fylo-storage-capacity">
-      <div class="storage-used">
-        <p>You’ve used <span>815 GB</span> of your storage</p>
-      </div>
-      <div class="usage-bar">
-        <div class="usage-bar__progress">
-          <div class="usage-bar__point"></div>
+        <div class="usage-bar">
+          <div class="usage-bar__progress">
+            <div class="usage-bar__point"></div>
+          </div>
         </div>
-      </div>
-      <div class="usage-bar__minmax">
-        <p>0 GB</p>
-        <p>1000 GB</p>
-      </div>
-      <div class="remain-capacity-label">
-        <span>185 </span><span> GB Left</span>
-      </div>
-    </section>
-  </main>
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="https://blog.gusanche.dev">Gustavo Sanchez</a>.
-  </div>
-</body>
+        <div class="usage-bar__minmax">
+          <p>0 GB</p>
+          <p>1000 GB</p>
+        </div>
+        <div class="remain-capacity-label">
+          <span>185 </span><span> GB Left</span>
+        </div>
+      </section>
+    </main>
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="https://blog.gusanche.dev">Gustavo Sanchez</a>.
+    </div>
+  </body>
 </html>
